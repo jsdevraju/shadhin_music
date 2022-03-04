@@ -36,6 +36,23 @@
 <body>
 
 
+    <!-- Login Popup -->
+    <div class="popup_login">
+        <form>
+            <h5 class="fs-5 text-center">Login</h5>
+            <h3 class="mt-4">Login with mobile number</h3>
+            <input type="text" placeholder="Phone Number">
+            <input type="password" placeholder="Enter password">
+            <div class="d-flex align-items-center justify-content-between">
+                <p><input class="radio" type="radio"> Remember me</p>
+                <a href="#">Forgot password</a>
+            </div>
+            <button class="btn btn-primary mt-4">Login</button>
+        </form>
+    </div>
+    <div class="overlay"></div>
+<!-- Login Popup -->
+
 <!-- Sidebar Section Start Here -->
 <div class="sidebar">
     <nav class="side">
@@ -62,6 +79,9 @@
 <!-- Main Section Start Here -->
 <main class="app">
     <section class="home">
+        <div class="menu_togle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
        <!-- Topbar Section Start Here -->
        <nav class="navbar">
            <div class="search">
@@ -69,7 +89,7 @@
                <i class="fa-solid fa-magnifying-glass"></i>
            </div>
            <div class="btn_grp">
-               <button class="btn app_btn transparent">Login</button>
+               <button class="btn app_btn transparent login">Login</button>
                <button class="btn app_btn">Sing up</button>
            </div>
        </nav>
